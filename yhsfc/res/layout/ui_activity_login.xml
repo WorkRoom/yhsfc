@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author csh           -->
+<!-- date 2016年5月14日            -->
+<!-- 欢迎页                                          -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/bg_grey_color" >
+
+	<com.lyjtzn.yhsfc.view.MyCommonTitle
+        android:id="@+id/aci_mytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+	
+	<!-- 订单详情 -->
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:focusable="true"
+	    android:orientation="vertical"
+        android:focusableInTouchMode="true" >
+        
+        <ImageView 
+	        android:layout_width="@dimen/one_hundred_fifty"
+	        android:layout_height="@dimen/one_hundred_fifty"
+            android:layout_marginLeft="@dimen/ten"
+	        android:contentDescription="@string/app_name"
+	        android:padding="@dimen/fifteen"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="@dimen/fifty"
+	        android:src="@drawable/ico_app"/>
+	    
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+			android:layout_height="@dimen/forty"
+	        android:orientation="horizontal"
+	        android:gravity="center_vertical"
+	        android:background="@color/white"
+	        android:layout_marginTop="@dimen/twenty">
+	        <ImageView 
+		        android:layout_width="@dimen/fifty"
+		        android:layout_height="@dimen/fifty"
+	            android:layout_marginLeft="@dimen/ten"
+		        android:contentDescription="@string/app_name"
+		        android:padding="@dimen/fifteen"
+		        android:src="@drawable/login_username"/>
+	      	<EditText 
+	      	    android:id="@+id/uu_username"
+	      	    android:layout_width="fill_parent"
+	      	    android:layout_height="wrap_content"
+				android:hint="@string/login_username"
+				android:layout_marginLeft="@dimen/ten"
+                style="@style/edit_text"
+	      	    android:inputType="numberSigned"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+			android:layout_height="@dimen/forty"
+	        android:orientation="horizontal"
+	        android:gravity="center_vertical"
+	        android:background="@color/white">
+	        <ImageView 
+		        android:layout_width="@dimen/fifty"
+		        android:layout_height="@dimen/fifty"
+	            android:layout_marginLeft="@dimen/ten"
+		        android:contentDescription="@string/app_name"
+		        android:padding="@dimen/fifteen"
+		        android:src="@drawable/login_password"/>
+	      	<EditText 
+	      	    android:id="@+id/uu_password"
+	      	    android:layout_width="0.0dip"
+	      	    android:layout_height="wrap_content"
+	      	    android:layout_weight="1"
+				android:hint="@string/login_password"
+				android:layout_marginLeft="@dimen/ten"
+                style="@style/edit_text"
+	      	    android:inputType="textPassword"/>
+	        <TextView 
+	      	    android:id="@+id/uu_forget"
+	            android:text="@string/login_forget"
+	            android:textSize="@dimen/t_eighteen"
+	            android:textColor="@color/theme_color"
+	            android:layout_marginLeft="@dimen/ten"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+	    </LinearLayout>
+		<LinearLayout 
+		    android:layout_width="wrap_content"
+		    android:layout_height="@dimen/thirty_five"
+		    android:layout_marginTop="@dimen/fifty"
+		    android:paddingLeft="@dimen/twenty"
+		    android:paddingRight="@dimen/twenty"
+		    android:orientation="horizontal">
+		    <Button 
+		        android:id="@+id/btn_login"
+		        android:layout_width="@dimen/one_hundred_thirty"
+		        android:layout_height="@dimen/thirty_five"
+		        android:background="@drawable/bg_null_green"
+		        android:textColor="@color/theme_color"
+		        android:gravity="center"
+		        android:text="@string/button_login"/>
+		    <View 
+		        android:layout_width="0.0dip"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"/>
+		    <Button 
+		        android:id="@+id/btn_register"
+		        android:layout_width="@dimen/one_hundred_thirty"
+		        android:layout_height="@dimen/thirty_five"
+		        android:background="@drawable/bg_null_green"
+		        android:textColor="@color/theme_color"
+		        android:gravity="center"
+		        android:text="@string/button_register"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

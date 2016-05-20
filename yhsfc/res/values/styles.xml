@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author csh           -->
+<!-- date 2016年5月14日            -->
+<!-- 自定义样式                                   -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 去掉TitleBar的Theme定义 -->
+    <style name="com.cheng.theme.app" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <!-- 标题文本样式定义 -->
+    <style name="ui_titletext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- EditText的风格 -->
+    <style name="edit_text">
+
+        <!-- 背景色 -->
+        <item name="android:background">@null</item>
+        <!-- 提示颜色 -->
+        <item name="android:textColorHint">@color/edit_hint_color</item>
+    </style>
+
+    <!-- dialog风格 -->
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 无边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- 自定义请求dialog的风格 -->
+    <style name="RequestDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊背景 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题显示 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

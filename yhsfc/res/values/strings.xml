@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author csh           -->
+<!-- date 2016年5月14日            -->
+<!-- 字符串                                           -->
+<resources>
+
+    <!-- 常用公用字符串 -->
+    <string name="app_name">壹号顺风车</string>
+    <string name="aks_version">版本号</string>
+    <string name="title">标题</string>
+    <string name="edit">Edit</string>
+
+    <!-- 按钮上字符串 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <!-- 登录 -->
+    <string name="login_username">请输入手机号</string>
+    <string name="login_password">密码</string>
+    <string name="login_forget">忘记密码？</string>
+    <string name="button_login">登录</string>
+    <string name="button_register">注册</string>
+    
+    <!-- 注册 -->
+    <string name="text_mobile">手机号&#160;&#160;&#160;&#160;</string>
+    <string name="text_identify">验证码&#160;&#160;&#160;&#160;</string>
+    <string name="text_password">密码&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="text_repassword">确认密码</string>
+    <string name="hint_identify">请输入验证码</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_repassword">再次输入密码</string>
+    <string name="btn_identify">获取验证码</string>
+    <string name="text_register">下一步</string>
+    
+    <!-- 车辆资料 -->
+    <string name="text_name">姓名</string>
+    <string name="text_type">车型</string>
+    <string name="text_insurance">保险单号</string>
+    <string name="text_jsz">驾驶证</string>
+    <string name="text_xsz">行驶证</string>
+    <string name="code_default">鲁Q</string>
+    <string name="hint_name">请输入您的姓名</string>
+    <string name="hint_code">请输入您的车牌号</string>
+    <string name="hint_insurance">请输入保险单号</string>
+    <string name="btn_upload">上传照片</string>
+    <string name="text_submit">注册</string>
+    
+    <!-- 抢单大厅 -->
+    <string name="text_home">首页</string>
+    <string name="text_user">个人中心</string>
+    <string name="text_title">从兰山区人民广场到沂蒙北路与上海路交汇处朗润大厦B座</string>
+</resources>

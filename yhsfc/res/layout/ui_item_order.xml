@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView 
+    android:id="@+id/uu_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="@dimen/one_hundred"
+	android:layout_weight="1"
+	android:background="@color/bg_grey_color"
+	android:drawableRight="@drawable/grab"
+	android:gravity="center_vertical"
+	android:padding="@dimen/ten"
+	android:text="@string/text_title"
+	android:textSize="@dimen/t_thirty"
+	android:textColor="@color/dimgrey"
+	android:singleLine="true"
+	android:ellipsize="end"/>

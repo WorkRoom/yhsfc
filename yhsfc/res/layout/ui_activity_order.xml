@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author csh           -->
+<!-- date 2016年5月14日            -->
+<!-- 订单列表                                       -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<com.lyjtzn.yhsfc.view.MyCommonTitle
+        android:id="@+id/aci_mytitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0.0dip"
+	    android:layout_weight="1">
+	
+	    <com.lyjtzn.yhsfc.view.XListView
+	        android:id="@+id/advert_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"/>
+	    
+    </FrameLayout>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="@dimen/fifty"
+	    android:padding="@dimen/twenty"
+	    android:orientation="horizontal">
+	    <Button 
+	        android:id="@+id/btn_login"
+	        android:layout_width="@dimen/one_hundred_thirty"
+	        android:layout_height="@dimen/thirty_five"
+	        android:background="@drawable/bg_round_green"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        android:text="@string/text_home"/>
+	    <View 
+	        android:layout_width="0.0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+	    <Button 
+	        android:id="@+id/btn_register"
+	        android:layout_width="@dimen/one_hundred_thirty"
+	        android:layout_height="@dimen/thirty_five"
+	        android:background="@drawable/bg_round_green"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        android:text="@string/text_user"/>
+	</LinearLayout>
+
+</LinearLayout>
